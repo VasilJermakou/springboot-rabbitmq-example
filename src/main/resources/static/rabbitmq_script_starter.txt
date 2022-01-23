@@ -1,0 +1,9 @@
+    Install RabbitMQ in windows :
+    1. Download and install ERlang https://erlang.org/download/otp_versions_tree.html
+    2. Download and install RabbitMQ https://www.rabbitmq.com/install-windows.html
+    3. Go to RabbitMQ Server install Directory C:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.3\sbin
+    4. Run command rabbitmq-plugins enable rabbitmq_management
+    6. Open browser and enter http://localhost:15672/ to redirect to RabbitMQ Dashboard
+    7. Also we can Open it with IP Address http://127.0.0.1:15672
+    8. Login page default username and password is guest
+    9. After successfully login you should see RabbitMQ Home page
